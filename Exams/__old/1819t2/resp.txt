@@ -1,0 +1,15 @@
+i
+iii
+iv
+i
+---
+iii
+-----------------
+
+2) Não pois quebra os pressupostos dos intermediários. O método PUT sinaliza uma operação idempotente, logo se passar a realizar uma operação não idempotente, os intermediários poderão repetir o pedido com o pressuposto de ser idempotente, estando estes errados.
+
+3) O formato Siren inclui "actions" como um elemento adicional. Esta "actions" permitem definir ações que podem ser realizadas sobre o recurso atual, podendo ou não alterar o mesmo. Elas também descrevem como realizar a ação, desde o método a efetuar como os parametros do mesmo.
+
+4) A componente servidora da aplicação terá de servir o mesmo ficheiro HTML para todas as rotas, de maneira ao "routing" ser efetuado no lado do cliente, incluindo pedidos 404. Já a componente client terá de verificar o URI atual cada vez que é carregada, de maneira a apresentar o recurso adequado.
+
+5) ::Pasta "demo"::

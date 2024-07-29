@@ -1,0 +1,13 @@
+O Spring (framework) desenvolveu 3 principais subprojetos
+
+- Spring frame work também é de chamado de spring context. É a componente base de muitos outros projetos. Implementa um contentor de injeçao de dependencias
+- spring web = mvc -> framework para criaçao de applicaçoes WEB, que usa o spring context
+- spring reactive web = web flux -> alternativa ao spring MVC
+
+@Bean -> objeto gerido pelo contexto
+
+em tempo de arranque, a falta da Beans levanta exceçao
+
+Uma classe pode precisar de uma interface, como dependencia,
+mas se a classe q implementa essa interface nao tiver a anotaçao de componente,
+o contexto nao a vai ter em conta

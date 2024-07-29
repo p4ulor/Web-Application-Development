@@ -1,0 +1,14 @@
+iii
+iii
+i
+iv
+---
+iv (pedido com query)
+--------------------------------------
+2) A utilização de métodos idempotentes permitem que os utiliazadores façam retentativas dos pedidos sem afetar o estado da API devido a idempotência destes.
+
+3) ???
+
+4) React.createElement(List, {a: 'b', c: '5', e: a + b}, 
+    React.createElement(Item, null, 'aaaa'), 
+    React.createElement(Item, null, 'bbb', React.createElement('span', null, 'ccc'), 'ddd'))

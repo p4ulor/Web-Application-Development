@@ -1,0 +1,4 @@
+1) Em situações onde o pedido tem conteúdo, de maneira a especificar o tipo do seu corpo.
+2) Um link define ligações entre o recurso atual e outros recursos. Uma ação define algo que pode ser realizado sobre o recurso atual que poderá resultar numa alteração do mesmo
+3) ---
+4) O sistema de cache armazena a data da última alteração do recurso, data essa que é fornecida pelo servidor. Ao fazer um pedido para a obtenção deste recurso, o pedido HTTP conterá um header que sinaliza qual a versão do recurso presente na cache, e o servidor verificará este header, e responderá com o recurso atualizado, ou com uma resposta que sinaliza o cliente de que não houve alterações.

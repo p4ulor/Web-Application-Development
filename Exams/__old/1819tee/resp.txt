@@ -1,0 +1,16 @@
+iii
+iv
+iv
+ii
+iv
+iv
+--------
+2) O status code 201 significa que o pedido foi processado e resultou na criação de um recurso. Este recurso pode ser localizado através do header Location que poderá vir incluído com a resposta. Já o status code 202 significa que o pedido foi aceita mas que o seu processamente pode não estar concluído e pode nem sequer ter começado ainda.
+
+3) Um filtro é executado primeiro que o interceptor, mas não permite ter acesso ao handler que irá ser executado, caso este exista. Um interceptor é executado antes do handler e permite ter acesso ao handler que irá ser executado. No caso do filtro, só existe uma função que irá executar antes e depois do processamento do pedido. No caso do interceptor, existem três funções, sendo que uma será executado antes da execução do handler (preHandle) e outra após a execução do mesmo (postHandle).
+
+4) ------
+
+5) ::Pasta "demo"::
+
+6) ::Pasta "ex"::
